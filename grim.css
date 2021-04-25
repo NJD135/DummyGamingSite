@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    background-color: rgb(17, 9, 41);
+    color: rgb(240, 240, 240);
+    word-spacing: .2em;
+    line-height: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div#grad {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(56, 17, 66), rgb(25, 25, 54) 70%, rgb(48, 12, 12));
+    background-attachment: fixed;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#mainHeading {
+    font-size: 3em;
+    text-align: center;
+    margin: 40px 20px;
+    padding: 35px 30px 40px;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgb(2, 2, 26), black 70%,  rgb(16, 3, 31));
+    color: rgb(161, 12, 12);
+    border-radius: 6px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.4), 0px 6px 16px 0px rgba(29, 5, 5, 0.4);
+}
+#mainNav ul {
+    margin: 0;
+}
+#mainNav li {
+    display: inline;
+}
+#mainNav {
+    text-align: center;
+    font-size: 1.2em;
+    padding: px 25px;
+    background-color: rgb(187, 17, 51);
+    background-image: linear-gradient(to right, rgb(16, 16, 26), rgb(25, 25, 54) 70%, rgb(177, 16, 16) 100%);
+}
+#mainNav a {
+    display: inline-block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#mainNav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#mainNav a:active {
+    background-color: rgba(153, 0, 0, 0.7);
+    color: whitesmoke;
+}
+#mainContent {
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+.sect1,.sect2,.sect3,.sect4 {
+    height: 340px;
+    margin: 40px 0px;
+    position: relative;
+    top: 20px;
+}
+div.background1 {
+    background-image: url(./gamingImg1.jpg);
+}
+div.background2 {
+    background-image: url(./gamingImg2.jpg);
+}
+div.background3 {
+    background-image: url(./gamingImg3.jpg);
+}
+div.background4 {
+    background-image: url(./gamingImg4.jpg);
+}
+div.background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-position: center;
+    display: block;
+    opacity: 40%;
+    position: relative;
+    bottom:0px;
+}
+.para1, .para2, .para3, .para4 {
+    position: relative;
+    /* top: -340px; */
+    bottom: 340px;
+    margin: 40px 40px 0px;
+}
+.imgLeft {
+    float: left;
+    margin: 0 20px 10px 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4),0 6px 16px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+.imgRight {
+    float: right;
+    margin: 0 0px 10px 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4),0 6px 16px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+.articleHeading {
+    margin: 30px;
+    color: rgb(177, 16, 16);
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+}
+/* .paraRight, .paraLeft {
+    text-align: justify;
+} */
+.articleHeading.right {
+    text-align: right;
+}
+.articleHeading.left {
+    text-align: left;
+}
+
+#bottomBar {
+    text-align: center; /*The whole main section was overflowing*/
+    background-color: rgba(50, 1, 97, .5);
+}
+#bottomBar a {
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: cornsilk;
+}
+#bottomBar a:hover {
+    background-color: rgba(255, 248, 220, .2);
+}
+#bottomBar a:active {
+    background-color: rgba(255, 248, 220, .7);
+    color: rgb(73, 5, 73);
+}
+
+/*About me section*/
+#container {
+    margin: auto;
+    width: 70%;
+    margin-top: 60px;
+}
+.aboutHeading {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border-bottom: 2px solid rgb(81, 67, 145);
+    padding: 8px;
+}
+.content {
+    border-bottom: 2px solid rgb(81, 67, 145);
+    padding:8px;
+    text-align: justify;
+}
+/*Stream section*/
+div iframe {
+    margin: 80px 25px;
+}
+#vidContent {
+    margin: auto;
+    width: 900px;
+}
+
+/*Feels like a HOT MESS. But, oh well..*/
